@@ -3,5 +3,11 @@ function calculateNumbers(var1, var2) {
 }
 
 function skillsMember() {
-  return "I'm a member of the skills module";
-} 
+  const skills = {
+    name: "John",
+    age: 30,
+    calculateNumbers: calculateNumbers,
+  };
+
+  return skills;
+}
